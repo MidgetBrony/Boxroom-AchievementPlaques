@@ -1,0 +1,6 @@
+bin/
+obj/
+work/
+Directory.Build.user.props
+*.user
+*.suo

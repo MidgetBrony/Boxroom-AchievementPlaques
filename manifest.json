@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "boxroom-achievement-plaques",
+  "name": "Achievement Plaques",
+  "version": "0.1.8",
+  "author": "MidgetBrony",
+  "description": "Wall-mounted game completion and individual Steam achievement plaques with completion-tier presentation.",
+  "repository": "https://github.com/MidgetBrony/Boxroom-AchievementPlaques",
+  "requirements": { "melonLoader": "0.7.0" },
+  "dependencies": [
+    {
+      "manifest": "https://raw.githubusercontent.com/MidgetBrony/ModsPanel/master/manifest.json",
+      "minimumVersion": "2.7.5",
+      "required": true
+    }
+  ],
+  "release": {
+    "provider": "github",
+    "asset": "Boxroom-AchievementPlaques-*.zip",
+    "checksumAsset": "SHA256SUMS.txt",
+    "destination": "Mods"
+  }
+}
