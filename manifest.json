@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "boxroom-achievement-plaques",
   "name": "Achievement Plaques",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "MidgetBrony",
   "description": "Wall-mounted game completion and individual Steam achievement plaques with completion-tier presentation.",
   "repository": "https://github.com/MidgetBrony/Boxroom-AchievementPlaques",

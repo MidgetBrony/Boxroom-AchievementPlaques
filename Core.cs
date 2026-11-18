@@ -6,7 +6,7 @@ using SteamShelf.Placeables;
 using SteamShelf.PlayerTools;
 using UnityEngine;
 
-[assembly: MelonInfo(typeof(BoxroomAchievementPlaques.Core), "Achievement Plaques", "0.1.8", "MidgetBrony")]
+[assembly: MelonInfo(typeof(BoxroomAchievementPlaques.Core), "Achievement Plaques", "0.1.9", "MidgetBrony")]
 [assembly: MelonGame("NestedLoop", "BOXROOM")]
 
 namespace BoxroomAchievementPlaques;
@@ -45,7 +45,7 @@ public sealed class Core : MelonMod
             .AddButton("open-steam-cache", "Open Steam's local achievement cache", "Open Steam Cache", PlaquePaths.OpenSteamCacheFolder)
             .AddLabel("help", "The picker uses BOXROOM's full Steam library. Completion comes from Steam's local cache or the keyless Steam Community feed; a personal Web API key is only an optional fallback.");
 
-        LoggerInstance.Msg($"Registered Achievement Plaques 0.1.8; local completion cache contains {AchievementProgressCache.All.Count} games.");
+        LoggerInstance.Msg($"Registered Achievement Plaques 0.1.9; local completion cache contains {AchievementProgressCache.All.Count} games.");
     }
 
     public override void OnDeinitializeMelon()

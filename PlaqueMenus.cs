@@ -77,6 +77,7 @@ internal static class PlaqueMenus
         menu.Eyebrow = "OPTIONAL FALLBACK";
         menu.AddLabel("The mod tries Steam's keyless community achievement feed first. Your personal key is only a fallback and stays locally in UserData/AchievementPlaques/config.json.")
             .AddLabel("Need a key? Sign in on Steam's official registration page, use localhost for the domain name, then copy the displayed key back here.")
+            .AddSpacer(52f)
             .AddButton("Get a Steam Web API key", OpenApiKeyRegistration, "OPEN STEAM'S OFFICIAL KEY PAGE")
             .AddPasswordInput("API key", () => pendingApiKey, value => pendingApiKey = value ?? "", "Paste your Steam Web API key")
             .AddButton("Save key", () =>
